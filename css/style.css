@@ -150,6 +150,7 @@ h4{
 .garis p{
     text-align: left;
     float: left;
+    margin: 10px 0;
     color: aliceblue;    
 }
 .navbar-brand{
