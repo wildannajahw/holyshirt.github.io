@@ -6,10 +6,7 @@
 body{
     background-color: white;
 }
-#right{
-    float: right;
-    width: 100%;
-}
+
 .navbar{
     background-color: white;
     border-bottom-style: ridge;
@@ -86,7 +83,20 @@ body{
     margin-bottom: 50px;
 }
 .linkcol{
+    background-color: white;
     color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 10px;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 35px;
+    margin-bottom: 50px;
+}
+.linkcol:hover{
+    color: white;
+    background-color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -107,10 +117,10 @@ h4{
     font-size: 150%;
 }
 #footer{
-    padding: 50px 0 0 0;
+    padding: 50px 10% 0 0;
     margin: 0;
     width: 100%;
-    background-color: black;
+    background-color: #202020;
 }
 
 .ulfoot li a{
@@ -119,7 +129,17 @@ h4{
 }
 
 .footer{
-    background-color: black;
     border-bottom-color: black;
-    font-size: 200%;
+}
+.garis{
+    width: 100%;
+    margin-left: 10%;
+    border-top: solid 2px;
+    border-color: wheat;   
+    text-align: left;
+}
+.garis p{
+    text-align: left;
+    float: left;
+    color: aliceblue;    
 }
