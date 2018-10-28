@@ -197,6 +197,44 @@ h4{
     background-color: #202020;
     color: #bf9b30;
 }
+
+#active{
+    border: solid 2px;
+    border-color: #bf9b30;
+    padding: 5px 8px;
+    color: #bf9b30;
+    display: inline-block;
+}
+.col-sm-12{
+    margin-top: 5%;
+    text-align: center;
+}
+.col-sm-12 .form-control{
+    margin-top: 1%;
+    width: 50%;
+    border: groove 1px;
+    border-color: #202020;
+}
+.col-sm-12 .form-check-label{
+    font-size: 200%; 
+    margin: 0 13%;
+}
+
+.col-sm-12 .btn{
+    margin: 3%;
+    padding: 0 10%;
+    font-size: 300%;
+    border-radius: 60px;
+}
+.col-sm-12 .btn:hover{
+    margin: 3%;
+    padding: 0 10%;
+    font-size: 300%;
+    border-radius: 60px;
+    background-color: #202020;
+    color: #bf9b30;
+}
+
 .rame{
     background-image: url(../images/rame.jpg);
 
@@ -214,4 +252,8 @@ h4{
     opacity: 0.5;
     padding-top: 50px;
     margin-top: 50px;
+}
+
+#cekbok{
+    width: 92%;
 }
