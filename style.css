@@ -115,9 +115,11 @@ h4{
 
 .ulfoot li a{
     color: white;
+    font-size: 150%;
 }
 
 .footer{
     background-color: black;
     border-bottom-color: black;
+    font-size: 200%;
 }
