@@ -9,10 +9,11 @@ body{
 
 .navbar{
     background-color: white;
-    border-bottom-style: ridge;
+    border-bottom: solid 1px;
+    border-color: #bf9b30;
     
 }
-.navbar a{
+.navbar a,li{
     color: #bf9b30;
 }
 .container{
@@ -68,7 +69,7 @@ body{
 }
 #judulcollection{
     border: solid 2px;
-    border-color: black;
+    border-color: #bf9b30;
 }
 .text{
     margin: 0 43%;
@@ -82,6 +83,14 @@ body{
     border: solid 2px;
     margin-bottom: 50px;
 }
+.nav-link:hover{
+    border: solid 2px;
+    border-color: #bf9b30;
+    padding: 5px 15px;
+    color: #bf9b30;
+    display: inline-block;
+}
+
 .linkcol{
     background-color: white;
     color: black;
@@ -146,4 +155,44 @@ h4{
 .navbar-brand{
     font-family: 'Lobster', cursive;
     font-size: 165%;
+}
+#active{
+    border: solid 2px;
+    border-color: #bf9b30;
+    color: #bf9b30;
+    padding: 5px 15px;
+    display: inline-block;
+}
+.col-sm-6{
+    margin-top: 10%;
+    text-align: center;
+}
+.col-sm-6 .form-control{
+    margin-top: 1%;
+    width: 50%;
+    border: groove 1px;
+    border-color: #202020;
+}
+.col-sm-6 .form-check-label{
+    font-size: 200%; 
+    margin: 0 13%;
+}
+.passfor{
+    font-size: 200%; 
+    margin: 0 13%;
+
+}
+.col-sm-6 .btn{
+    margin: 3%;
+    padding: 0 10%;
+    font-size: 300%;
+    border-radius: 60px;
+}
+.col-sm-6 .btn:hover{
+    margin: 3%;
+    padding: 0 10%;
+    font-size: 300%;
+    border-radius: 60px;
+    background-color: #202020;
+    color: #bf9b30;
 }
