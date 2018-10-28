@@ -143,3 +143,7 @@ h4{
     float: left;
     color: aliceblue;    
 }
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 165%;
+}
