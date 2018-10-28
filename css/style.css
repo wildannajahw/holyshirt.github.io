@@ -197,7 +197,12 @@ h4{
     background-color: #202020;
     color: #bf9b30;
 }
-
+.col-sm-6 .btn a{
+    color: #202020;
+}
+.col-sm-6 .btn a:hover{
+    color: #bf9b30;
+}
 #active{
     border: solid 2px;
     border-color: #bf9b30;
