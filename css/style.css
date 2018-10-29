@@ -268,3 +268,13 @@ h4{
 #cekbok{
     width: 92%;
 }
+.navbis{
+    background-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,1));
+    border-bottom: solid 1px;
+    border-color: #bf9b30;
+    z-index: 2;
+}
+.navbis:hover{
+    background-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,1));
+    z-index: 2;
+}
