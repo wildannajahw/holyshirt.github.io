@@ -60,13 +60,19 @@
 		
 						</div>
 						<div class="col-sm-6  os-animation"data-os-animation="bounceInUp" data-os-animation-delay="0.25s">
-							<h3 style="margin-top:10%">RESULT</h3>
-							
-							<div id="result">
-
+							<h3 style="margin-top:1%">RESULT</h3>
+							<h4>Weight</h4>
+							<div class="mx-auto" style="border: solid 1px;width:300px;height:38px;margin-left: 10%;border-radius: 5px;margin-bottom: 1%;">
+							<div id="result1" style="font-size: 200%;padding-top: 3.5px;">
 								</div>
-								<button class="btn btn-danger" id="reset" name="reset">RESET</button>
-								<button class="btn btn-primary" id="save" name="save">SAVE YOUR SIZE</button>
+								</div>
+								<h4>Height</h4>
+								<div class="mx-auto" style="border: solid 1px;width:300px;height:38px;margin-left: 10%;border-radius: 5px; ">
+										<div id="result2" style="font-size: 200%;padding-top: 3.5px;">
+											</div>
+											</div>
+								<button class="btn" id="reset" name="reset">RESET</button>
+								<button class="btn" id="save" name="save">SAVE YOUR SIZE</button>
 							</div>
 						</div>
 					</div>
@@ -120,16 +126,22 @@
 			$("#create").click(function () {
 				let weight = $("#weight").val();
 				let high = $("#height").val();
-				let message = "weight  "+ weight + "height" + high  ;
+				let message1 = weight ;
+				let message2 = high ;
 					
 
 				
-				console.log(message);
-				$("#result").show();
-				$("#result").html(message);
+				console.log(message1);
+				$("#result1").show();
+				$("#result1").html(message1);
+
+				console.log(message2);
+				$("#result2").show();
+				$("#result2").html(message2);
 			});
 			$("#reset").click(function () {
-				$("#result").hide();
+				$("#result1").hide();
+				$("#result2").hide();
 			});
 		});
 	</script>
